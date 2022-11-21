@@ -5,11 +5,6 @@ let update_date = document.querySelector("#update-date");
 let local_date = document.querySelector("#local-date");
 let searchInp = document.querySelector(".search");
 
-setInterval(() => {
-  let date = new Date();
-  local_date.textContent = `Local time: ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
-}, 1000);
-
 let city = "London";
 
 document.addEventListener("keydown", (e) => {
