@@ -9,7 +9,6 @@ body::before {
   background: url("./img/pick-lightning.jpg") no-repeat;
   filter: blur(0.7px);
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -21,16 +20,12 @@ body {
   width: 100%;
   overflow: hidden;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;400;500&display=swap");
-
 .container {
   font-family: "Lexend", sans-serif;
   width: 250px;
-  margin: 0 auto;
+  margin: 0;
   color: #fff;
 }
-
 .weather-img {
   height: 50px;
 }
@@ -61,36 +56,4 @@ body {
 
 .shadow {
   box-shadow: 1px 1px 18px 0px rgba(50, 50, 50, 0.75);
-}
-
-.inp {
-  display: none;
-}
-
-.lab {
-  background: #000;
-  display: flex;
-  justify-content: center;
-  margin-top: 80px;
-  font-family: "Lexend", sans-serif;
-  padding: 5px 10px;
-  text-transform: uppercase;
-  border: none;
-  outline: none;
-  transition: 0.5s;
-  cursor: pointer;
-  box-shadow: 8px 5px 0px 0px red;
-}
-
-.lab:hover {
-  box-shadow: 2px 2px 0px 0px red;
-}
-
-.highlighting {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Chrome/Safari/Opera */
-  -khtml-user-select: none; /* Konqueror */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none;
 }
