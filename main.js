@@ -19,7 +19,7 @@ document.addEventListener("keydown", (e) => {
 
 function init() {
   fetch(
-    `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=d982b206b7125a363d94918d08ebf560`
+    `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=d982b206b7125a363d94918d08ebf560`
   )
     .then((resp) => {
       return resp.json();
